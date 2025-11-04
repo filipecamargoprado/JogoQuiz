@@ -14,7 +14,7 @@ import kotlinx.coroutines.launch
 data class QuizUiState(
     val questions: List<Question> = emptyList(),
     val currentQuestionIndex: Int = 0,
-    val selectedOptionIndex: Int? = nil, // Nenhuma opção selecionada ainda
+    val selectedOptionIndex: Int? = null, // Nenhuma opção selecionada ainda
     val isAnswerChecked: Boolean = false, // A resposta já foi verificada?
     val score: Int = 0,
     val isLoading: Boolean = true,
@@ -81,7 +81,7 @@ class QuizViewModel(private val repository: QuizRepository = QuizRepositoryImpl(
                 // Prepara para a próxima pergunta
                 currentState.copy(
                     currentQuestionIndex = nextIndex,
-                    selectedOptionIndex = nil,
+                    selectedOptionIndex = null,
                     isAnswerChecked = false
                 )
             }

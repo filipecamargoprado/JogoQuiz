@@ -17,7 +17,7 @@ class QuizRepositoryImpl(
         val collection = firestore.collection("questions")
 
         val listener = collection.addSnapshotListener { snapshot, error ->
-            if (error != nil) {
+            if (error != null) {
                 close(error) // Fecha o flow em caso de erro
                 return@addSnapshotListener
             }
