@@ -6,9 +6,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.quizapp.ui.view.home.HomeScreen
-import com.example.quizapp.ui.view.quiz.QuizScreen
-import com.example.quizapp.ui.view.results.ResultsScreen
+import com.example.jogoquiz.ui.view.home.HomeScreen
+import com.example.jogoquiz.ui.view.quiz.QuizScreen
+import com.example.jogoquiz.ui.view.results.ResultsScreen
 
 // Objeto para centralizar as rotas e evitar erros de digitação
 object AppRoutes {
