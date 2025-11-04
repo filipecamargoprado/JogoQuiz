@@ -1,4 +1,4 @@
-package com.example.quizapp.ui.theme
+package com.example.jogoquiz.ui.theme
 
 import android.app.Activity
 import android.os.Build

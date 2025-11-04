@@ -1,6 +1,6 @@
-package com.example.quizapp.data.repository
+package com.example.jogoquiz.data.repository
 
-import com.example.quizapp.data.model.Question
+import com.example.jogoquiz.data.model.Question
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.toObjects
 import kotlinx.coroutines.channels.awaitClose

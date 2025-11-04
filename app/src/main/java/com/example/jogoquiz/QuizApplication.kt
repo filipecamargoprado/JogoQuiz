@@ -1,4 +1,4 @@
-package com.example.quizapp
+package com.example.jogoquiz
 
 import android.app.Application
 import com.google.firebase.FirebaseApp

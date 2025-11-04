@@ -1,4 +1,4 @@
-package com.example.quizapp.ui.view.home
+package com.example.jogoquiz.ui.view.home
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Button

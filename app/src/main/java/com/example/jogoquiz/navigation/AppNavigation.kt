@@ -1,4 +1,4 @@
-package com.example.quizapp.navigation
+package com.example.jogoquiz.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavType

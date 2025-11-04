@@ -1,4 +1,4 @@
-package com.example.quizapp.data.model
+package com.example.jogoquiz.data.model
 
 import com.google.firebase.firestore.DocumentId
 

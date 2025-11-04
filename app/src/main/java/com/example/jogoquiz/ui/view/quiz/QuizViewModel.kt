@@ -1,10 +1,10 @@
-package com.example.quizapp.ui.view.quiz
+package com.example.jogoquiz.ui.view.quiz
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.quizapp.data.model.Question
-import com.example.quizapp.data.repository.QuizRepository
-import com.example.quizapp.data.repository.QuizRepositoryImpl
+import com.example.jogoquiz.data.model.Question
+import com.example.jogoquiz.data.repository.QuizRepository
+import com.example.jogoquiz.data.repository.QuizRepositoryImpl
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

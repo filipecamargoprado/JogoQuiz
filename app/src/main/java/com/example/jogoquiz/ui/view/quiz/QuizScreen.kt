@@ -1,4 +1,4 @@
-package com.example.quizapp.ui.view.quiz
+package com.example.jogoquiz.ui.view.quiz
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.*

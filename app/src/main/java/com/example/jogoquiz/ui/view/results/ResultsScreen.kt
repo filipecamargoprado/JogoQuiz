@@ -1,4 +1,4 @@
-package com.example.quizapp.ui.view.results
+package com.example.jogoquiz.ui.view.results
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
